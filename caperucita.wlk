@@ -1,8 +1,12 @@
-
+import feroz.*
 object caperucita {
     var pesoCape = 60
     var cantidadManzanas = 6
     method peso() = pesoCape + (cantidadManzanas*0.2)
+    method perderManzana(){
+      cantidadManzanas = cantidadManzanas - 1 
+
+    }
    
  }
 

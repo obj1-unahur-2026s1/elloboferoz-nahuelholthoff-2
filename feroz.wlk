@@ -20,7 +20,7 @@ object feroz {
     }
 
     method comer(unPersonaje) {
-        self.cambiarpeso(unPersonaje*0.1)
+        self.cambiarpeso(unPersonaje.peso()*0.1)
     }
 
     method correr(){
